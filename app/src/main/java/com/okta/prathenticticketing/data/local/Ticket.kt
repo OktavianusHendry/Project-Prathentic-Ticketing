@@ -5,10 +5,11 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Ticket(
-    @PrimaryKey val nomorTransaksi: String,
-    val nomorTiket: Int,
+    @PrimaryKey val nomorTransaksi: String, //kode Transaksi
+    val nomorTiket: String, //kode tiket
     val nama: String,
     val tipeTiket: String,
+    val textBarcode: String,
     val waktuMasuk: String? = null
 )
 

@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.okta.prathenticticketing.MainActivity
 
-@Database(entities = [Ticket::class], version = 2)
+@Database(entities = [Ticket::class], version = 3)
 abstract class TicketDatabase : RoomDatabase() {
     abstract fun ticketDao(): TicketDao
 

@@ -1,12 +1,9 @@
-Nomor_Transaksi,Nomor_Tiket,Nama,Tipe_Tiket,Waktu_Masuk
-PRT-23020168,168,noverli,Mentor,-
-PRT-23020169,169,noverli,Expo,-
-PRT-23020170,170,Jonathan,Dosen,-
-PRT-23020171,171,Bern,Talent,-
-PRT-23020172,172,Kevin,Reguler,-
-PRT-23020173,173,calvin,VIP,-
-PRT-23020174,174,calvin,Siswa Undangan,-
-PRT-23020175,175,Mahesa,Tenant,-
-PRT-23020176,176,Jonath,Mentor,-
-PRT-23020177,177,Marli,Expo,-
-PRT-23020178,178,Onar,Mentor,-
+Nomor_Transaksi,Nomor_Tiket,Nama,Tipe_Tiket,Text_Barcode,Waktu_Masuk
+PRT-22010278,06_1,Darren Jonathan,Mentor,PRT-22010278|06_1|Darren Jonathan,-
+PRT-22010167,00_1,Pak Aryaning,VIP,PRT-22010167|00_1|Pak Aryaning,-
+PRT-22010002,01_1,Adella Nursyabilla,Panitia,PRT-22010002|01_1|Adella Nursyabilla,-
+PRT-22010099,02_2,Tester Reguler,Reguler,PRT-22010099|02_2|Tester Reguler,-
+PRT-22010098,03_3,Tester S_Undangan,Siswa Undangan,PRT-22010098|03_3|Tester S_Undangan,-
+PRT-22010097,04_4,Tester Talent,Talent,PRT-22010097|04_4|Tester Talent,-
+PRT-22010096,05_5,Tester Tenant,Tenant,PRT-22010096|05_5|Tester Tenant,-
+PRT-22010095,06_6,Tester J_Talenthic,Juara Talenthic,PRT-22010095|06_6|Tester J_Talenthic,-

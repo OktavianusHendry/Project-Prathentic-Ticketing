@@ -30,11 +30,12 @@ class TicketViewModel(application: Application) : AndroidViewModel(application) 
     val vipTickets: LiveData<Int> = db.ticketDao().countVIPTickets()
     val regularTickets: LiveData<Int> = db.ticketDao().countRegularTickets()
     val siswaUndanganTickets: LiveData<Int> = db.ticketDao().countSiswaUndanganTickets()
-    val dosenTickets: LiveData<Int> = db.ticketDao().countDosenTickets()
+//    val dosenTickets: LiveData<Int> = db.ticketDao().countDosenTickets()
     val expoTickets: LiveData<Int> = db.ticketDao().countExpoTickets()
     val mentorTickets: LiveData<Int> = db.ticketDao().countMentorTickets()
     val talentTickets: LiveData<Int> = db.ticketDao().countTalentTickets()
     val tenantTickets: LiveData<Int> = db.ticketDao().countTenantTickets()
+    val juaraTickets: LiveData<Int> = db.ticketDao().countJuaraTickets()
 
     val allTickets: LiveData<List<Ticket>> = db.ticketDao().getAllTickets()
 
@@ -63,11 +64,12 @@ class TicketViewModel(application: Application) : AndroidViewModel(application) 
                     val tokens = line!!.split(',')
                     if (tokens.size >= 5) { // Ensure there are enough tokens
                         val nomorTransaksi = tokens[0]
-                        val nomorTiket = tokens[1].toInt()
+                        val nomorTiket = tokens[1]
                         val nama = tokens[2]
                         val tipeTiket = tokens[3]
-                        val waktuMasuk = if (tokens[4] == "-") null else tokens[4]
-                        ticketList.add(Ticket(nomorTransaksi, nomorTiket, nama,tipeTiket, waktuMasuk))
+                        val textBarcode = tokens[4]
+                        val waktuMasuk = if (tokens[5] == "-") null else tokens[5]
+                        ticketList.add(Ticket(nomorTransaksi, nomorTiket, nama,tipeTiket, textBarcode, waktuMasuk))
                     }
                 }
                 db.ticketDao().insertAll(ticketList)

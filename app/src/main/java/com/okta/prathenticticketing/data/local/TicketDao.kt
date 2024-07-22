@@ -14,8 +14,8 @@ interface TicketDao {
     @Query("SELECT * FROM ticket ORDER BY tipeTiket ASC, nomorTransaksi ASC")
     fun getAllTickets(): LiveData<List<Ticket>>
 
-    @Query("SELECT * FROM ticket WHERE nomorTransaksi = :nomorTransaksi")
-    fun findTransactionByNomorTransaksi(nomorTransaksi: String): Ticket?
+    @Query("SELECT * FROM ticket WHERE textBarcode = :textBarcode")
+    fun findTransactionByNomorTransaksi(textBarcode: String): Ticket?
 
     @Query("UPDATE ticket SET waktuMasuk = :waktuMasuk WHERE nomorTransaksi = :nomorTransaksi")
     suspend fun updateWaktuMasuk(nomorTransaksi: String, waktuMasuk: String)
@@ -35,10 +35,10 @@ interface TicketDao {
     @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Siswa Undangan'")
     fun countSiswaUndanganTickets(): LiveData<Int>
 
-    @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Dosen'")
-    fun countDosenTickets(): LiveData<Int>
+//    @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Dosen'")
+//    fun countDosenTickets(): LiveData<Int>
 
-    @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Expo'")
+    @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Panitia'")
     fun countExpoTickets(): LiveData<Int>
 
     @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Mentor'")
@@ -49,4 +49,7 @@ interface TicketDao {
 
     @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Tenant'")
     fun countTenantTickets(): LiveData<Int>
+
+    @Query("SELECT COUNT(*) FROM Ticket WHERE tipeTiket = 'Juara Talenthic'")
+    fun countJuaraTickets(): LiveData<Int>
 }

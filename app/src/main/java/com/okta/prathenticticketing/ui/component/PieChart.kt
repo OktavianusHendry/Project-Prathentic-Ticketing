@@ -81,21 +81,23 @@ fun PieChartTipeTiket(viewModel: TicketViewModel) {
     val vipTicket by viewModel.vipTickets.observeAsState(0)
     val regularTicket by viewModel.regularTickets.observeAsState(0)
     val siswaUndanganTicket by viewModel.siswaUndanganTickets.observeAsState(0)
-    val dosenTicket by viewModel.dosenTickets.observeAsState(0)
+//    val dosenTicket by viewModel.dosenTickets.observeAsState(0)
     val expoTicket by viewModel.expoTickets.observeAsState(0)
     val mentorTicket by viewModel.mentorTickets.observeAsState(0)
     val talentTicket by viewModel.talentTickets.observeAsState(0)
     val tenantTicket by viewModel.tenantTickets.observeAsState(0)
+    val juaraTicket by viewModel.juaraTickets.observeAsState(0)
 
     val entries = listOf(
         PieEntry(vipTicket.toFloat(), "VIP"),
         PieEntry(regularTicket.toFloat(), "Regular"),
         PieEntry(siswaUndanganTicket.toFloat(), "Siswa Undangan"),
-        PieEntry(dosenTicket.toFloat(), "Dosen"),
+//        PieEntry(dosenTicket.toFloat(), "Dosen"),
         PieEntry(expoTicket.toFloat(), "Expo"),
         PieEntry(mentorTicket.toFloat(), "Mentor"),
         PieEntry(talentTicket.toFloat(), "Talent"),
-        PieEntry(tenantTicket.toFloat(), "Tenant")
+        PieEntry(tenantTicket.toFloat(), "Tenant"),
+        PieEntry(juaraTicket.toFloat(), "Juara Talenthic")
     )
 
     val pieData = PieData(PieDataSet(entries, "").apply {

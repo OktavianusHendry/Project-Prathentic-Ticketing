@@ -79,9 +79,9 @@ fun TicketTable(viewModel: TicketViewModel) {
                     .horizontalScroll(rememberScrollState())
                     .background(when (ticket.tipeTiket){
                         "Mentor" -> PrathenticRed
-                        "Expo" -> PrathenticYellow
-                        "Dosen" -> PrathenticPurple
-                        "Talent" -> PrathenticBlue
+                        "Talent" -> PrathenticYellow
+                        "Juara Talenthic" -> PrathenticPurple
+                        "Panitia" -> PrathenticBlue
                         "Reguler" -> Color.White
                         "VIP" -> PrathenticPink
                         "Tenant" -> PrathenticBeige

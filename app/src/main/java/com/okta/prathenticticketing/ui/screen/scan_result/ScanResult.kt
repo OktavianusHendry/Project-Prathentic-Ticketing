@@ -97,10 +97,28 @@ fun ScanResultScreen(
                             .padding(top = 8.dp, start = 8.dp, end = 8.dp)
                     )
                     Text(
+                        text = "No Tiket: ${transaction.nomorTiket}",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 4.dp, start = 8.dp, end = 8.dp)
+                    )
+                    Text(
+                        text = "Nama: ${transaction.nama}",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 4.dp, start = 8.dp, end = 8.dp)
+                    )
+                    Text(
+                        text = "Tipe Tiket: ${transaction.tipeTiket}",
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 4.dp, start = 8.dp, end = 8.dp)
+                    )
+                    Text(
                         text = "Waktu Masuk: $currentTime",
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(8.dp)
+                            .padding(top = 4.dp, start = 8.dp, end = 8.dp, bottom = 8.dp)
                     )
                 }
                 Text(
