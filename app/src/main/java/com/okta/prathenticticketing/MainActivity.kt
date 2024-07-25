@@ -30,6 +30,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.camera.view.PreviewView
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -70,8 +71,9 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
 
                     val ticketViewModel: TicketViewModel by viewModels()
-                    ticketViewModel.prepopulateDatabase(context)
-
+                    LaunchedEffect(Unit) {
+                        ticketViewModel.prepopulateDatabase(context)
+                    }
 
                     NavHost(navController, startDestination = Screen.Home.route) {
                         composable(Screen.Home.route) {

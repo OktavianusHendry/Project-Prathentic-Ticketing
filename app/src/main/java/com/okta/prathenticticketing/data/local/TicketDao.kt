@@ -14,8 +14,14 @@ interface TicketDao {
     @Query("SELECT * FROM ticket ORDER BY tipeTiket ASC, nomorTransaksi ASC")
     fun getAllTickets(): LiveData<List<Ticket>>
 
+    @Query("SELECT * FROM Ticket")
+    suspend fun getAllTicketsSuspend(): List<Ticket>
+
+    @Query("SELECT * FROM ticket WHERE nomorTransaksi = :nomorTransaksi")
+    fun findTransactionByNomorTransaksi(nomorTransaksi: String): Ticket?
+
     @Query("SELECT * FROM ticket WHERE textBarcode = :textBarcode")
-    fun findTransactionByNomorTransaksi(textBarcode: String): Ticket?
+    fun findTransactionByTextQr(textBarcode: String): Ticket?
 
     @Query("UPDATE ticket SET waktuMasuk = :waktuMasuk WHERE nomorTransaksi = :nomorTransaksi")
     suspend fun updateWaktuMasuk(nomorTransaksi: String, waktuMasuk: String)

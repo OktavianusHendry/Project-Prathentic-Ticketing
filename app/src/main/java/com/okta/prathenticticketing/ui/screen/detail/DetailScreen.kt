@@ -52,6 +52,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.okta.prathenticticketing.R
 import com.okta.prathenticticketing.TicketViewModel
+import com.okta.prathenticticketing.ui.component.ExportButton
 import com.okta.prathenticticketing.ui.component.PieChartTipeTiket
 import com.okta.prathenticticketing.ui.component.PieChartView
 import com.okta.prathenticticketing.ui.component.TicketTable
@@ -193,10 +194,13 @@ fun DetailScreen(
                         }
                     }
                 }
+                ExportButton(viewModel)
+
                 Text(
                     text = "Statistik Tiket",
                     modifier = Modifier
                         .padding(horizontal = 16.dp)
+                        .padding(top = 8.dp)
                         .fillMaxWidth(),
                     textAlign = TextAlign.Center,
                     style = MaterialTheme.typography.titleMedium
@@ -320,7 +324,7 @@ fun SheetContent(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 16.dp)
-                .padding(bottom = 16.dp),
+                .padding(bottom = 48.dp),
             enabled = ticketCode.value.isNotEmpty()
         ) {
             Text("Tambah Tiket", style = MaterialTheme.typography.titleMedium)

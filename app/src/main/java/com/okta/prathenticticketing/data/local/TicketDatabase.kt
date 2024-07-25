@@ -10,21 +10,20 @@ import com.okta.prathenticticketing.MainActivity
 abstract class TicketDatabase : RoomDatabase() {
     abstract fun ticketDao(): TicketDao
 
-//    companion object {
-//        @Volatile
-//        private var INSTANCE: TicketDatabase? = null
-//
-//        @JvmStatic
-//        fun getDatabase(context: Context): TicketDatabase {
-//            return INSTANCE ?: synchronized(this) {
-//                INSTANCE ?: Room.databaseBuilder(
-//                    context.applicationContext,
-//                    TicketDatabase::class.java, "story_database"
-//                )
-//                    .fallbackToDestructiveMigration() // Add this line to allow destructive migrations
-//                    .build()
-//                    .also { INSTANCE = it }
-//            }
-//        }
-//    }
+    companion object {
+        @Volatile
+        private var INSTANCE: TicketDatabase? = null
+
+        fun getDatabase(context: Context): TicketDatabase {
+            return INSTANCE ?: synchronized(this) {
+                val instance = Room.databaseBuilder(
+                    context.applicationContext,
+                    TicketDatabase::class.java,
+                    "database-ticket"
+                ).fallbackToDestructiveMigration().build()
+                INSTANCE = instance
+                instance
+            }
+        }
+    }
 }
