@@ -115,6 +115,12 @@ fun PieChartTipeTiket(viewModel: TicketViewModel) {
             16f
         valueTextColor = Color.Black.toArgb()
         valueLineColor = Color.Black.toArgb()
+
+        valueFormatter = object : com.github.mikephil.charting.formatter.ValueFormatter() {
+            override fun getFormattedValue(value: Float): String {
+                return value.toInt().toString()
+            }
+        }
     })
 
     AndroidView(

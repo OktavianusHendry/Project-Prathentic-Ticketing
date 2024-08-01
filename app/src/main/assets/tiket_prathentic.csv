@@ -1,9 +1,136 @@
 Nomor_Transaksi,Nomor_Tiket,Nama,Tipe_Tiket,Text_Barcode,Waktu_Masuk
-PRT-22010278,06_1,Darren Jonathan,Mentor,PRT-22010278|06_1|Darren Jonathan,-
-PRT-22010167,00_1,Pak Aryaning,VIP,PRT-22010167|00_1|Pak Aryaning,-
-PRT-22010002,01_1,Adella Nursyabilla,Panitia,PRT-22010002|01_1|Adella Nursyabilla,-
-PRT-22010099,02_2,Tester Reguler,Reguler,PRT-22010099|02_2|Tester Reguler,-
-PRT-22010098,03_3,Tester S_Undangan,Siswa Undangan,PRT-22010098|03_3|Tester S_Undangan,-
-PRT-22010097,04_4,Tester Talent,Talent,PRT-22010097|04_4|Tester Talent,-
-PRT-22010096,05_5,Tester Tenant,Tenant,PRT-22010096|05_5|Tester Tenant,-
-PRT-22010095,06_6,Tester J_Talenthic,Juara Talenthic,PRT-22010095|06_6|Tester J_Talenthic,-
+PRT-22010279,07_1,John Doe,Mentor,PRT-22010279|07_1|John Doe,-
+PRT-22010280,08_1,Jane Smith,VIP,PRT-22010280|08_1|Jane Smith,-
+PRT-22010281,09_1,Michael Johnson,Panitia,PRT-22010281|09_1|Michael Johnson,-
+PRT-22010282,10_2,Emily Davis,Reguler,PRT-22010282|10_2|Emily Davis,-
+PRT-22010283,11_3,Chris Brown,Siswa Undangan,PRT-22010283|11_3|Chris Brown,-
+PRT-22010284,12_4,Patricia Garcia,Talent,PRT-22010284|12_4|Patricia Garcia,-
+PRT-22010285,13_5,Robert Martinez,Tenant,PRT-22010285|13_5|Robert Martinez,-
+PRT-22010286,14_6,Linda Rodriguez,Juara Talenthic,PRT-22010286|14_6|Linda Rodriguez,-
+PRT-22010287,15_1,David Wilson,Mentor,PRT-22010287|15_1|David Wilson,-
+PRT-22010288,16_1,Barbara Moore,VIP,PRT-22010288|16_1|Barbara Moore,-
+PRT-22010289,17_1,James Taylor,Panitia,PRT-22010289|17_1|James Taylor,-
+PRT-22010290,18_2,Jennifer Anderson,Reguler,PRT-22010290|18_2|Jennifer Anderson,-
+PRT-22010291,19_3,William Thomas,Siswa Undangan,PRT-22010291|19_3|William Thomas,-
+PRT-22010292,20_4,Elizabeth Jackson,Talent,PRT-22010292|20_4|Elizabeth Jackson,-
+PRT-22010293,21_5,Charles White,Tenant,PRT-22010293|21_5|Charles White,-
+PRT-22010294,22_6,Mary Harris,Juara Talenthic,PRT-22010294|22_6|Mary Harris,-
+PRT-22010295,23_1,Daniel Lee,Mentor,PRT-22010295|23_1|Daniel Lee,-
+PRT-22010296,24_1,Jessica Walker,VIP,PRT-22010296|24_1|Jessica Walker,-
+PRT-22010297,25_1,Paul Harris,Panitia,PRT-22010297|25_1|Paul Harris,-
+PRT-22010298,26_2,Laura Clark,Reguler,PRT-22010298|26_2|Laura Clark,-
+PRT-22010299,27_3,Kevin Lewis,Siswa Undangan,PRT-22010299|27_3|Kevin Lewis,-
+PRT-22010300,28_4,Susan Young,Talent,PRT-22010300|28_4|Susan Young,-
+PRT-22010301,29_5,Steven King,Tenant,PRT-22010301|29_5|Steven King,-
+PRT-22010302,30_6,Angela Scott,Juara Talenthic,PRT-22010302|30_6|Angela Scott,-
+PRT-22010303,31_1,George Hall,Mentor,PRT-22010303|31_1|George Hall,-
+PRT-22010304,32_1,Betty Allen,VIP,PRT-22010304|32_1|Betty Allen,-
+PRT-22010305,33_1,Edward Wright,Panitia,PRT-22010305|33_1|Edward Wright,-
+PRT-22010306,34_2,Deborah Lopez,Reguler,PRT-22010306|34_2|Deborah Lopez,-
+PRT-22010307,35_3,Frank Hill,Siswa Undangan,PRT-22010307|35_3|Frank Hill,-
+PRT-22010308,36_4,Carol Green,Talent,PRT-22010308|36_4|Carol Green,-
+PRT-22010309,37_5,Henry Adams,Tenant,PRT-22010309|37_5|Henry Adams,-
+PRT-22010310,38_6,Shirley Baker,Juara Talenthic,PRT-22010310|38_6|Shirley Baker,-
+PRT-22010311,39_1,Albert Nelson,Mentor,PRT-22010311|39_1|Albert Nelson,-
+PRT-22010312,40_1,Dorothy Carter,VIP,PRT-22010312|40_1|Dorothy Carter,-
+PRT-22010313,41_1,Mark Mitchell,Panitia,PRT-22010313|41_1|Mark Mitchell,-
+PRT-22010314,42_2,Nancy Perez,Reguler,PRT-22010314|42_2|Nancy Perez,-
+PRT-22010315,43_3,Donald Roberts,Siswa Undangan,PRT-22010315|43_3|Donald Roberts,-
+PRT-22010316,44_4,Karen Turner,Talent,PRT-22010316|44_4|Karen Turner,-
+PRT-22010317,45_5,Jason Phillips,Tenant,PRT-22010317|45_5|Jason Phillips,-
+PRT-22010318,46_6,Amy Campbell,Juara Talenthic,PRT-22010318|46_6|Amy Campbell,-
+PRT-22010319,47_1,Matthew Evans,Mentor,PRT-22010319|47_1|Matthew Evans,-
+PRT-22010320,48_1,Olivia Collins,VIP,PRT-22010320|48_1|Olivia Collins,-
+PRT-22010321,49_1,Joshua Stewart,Panitia,PRT-22010321|49_1|Joshua Stewart,-
+PRT-22010322,50_2,Emma Sanchez,Reguler,PRT-22010322|50_2|Emma Sanchez,-
+PRT-22010323,51_3,Andrew Morris,Siswa Undangan,PRT-22010323|51_3|Andrew Morris,-
+PRT-22010324,52_4,Isabella Rogers,Talent,PRT-22010324|52_4|Isabella Rogers,-
+PRT-22010325,53_5,Joseph Reed,Tenant,PRT-22010325|53_5|Joseph Reed,-
+PRT-22010326,54_6,Grace Cook,Juara Talenthic,PRT-22010326|54_6|Grace Cook,-
+PRT-22010327,55_1,Thomas Morgan,Mentor,PRT-22010327|55_1|Thomas Morgan,-
+PRT-22010328,56_1,Chloe Bell,VIP,PRT-22010328|56_1|Chloe Bell,-
+PRT-22010329,57_1,Daniel Murphy,Panitia,PRT-22010329|57_1|Daniel Murphy,-
+PRT-22010330,58_2,Abigail Bailey,Reguler,PRT-22010330|58_2|Abigail Bailey,-
+PRT-22010331,59_3,Christopher Rivera,Siswa Undangan,PRT-22010331|59_3|Christopher Rivera,-
+PRT-22010332,60_4,Victoria Cooper,Talent,PRT-22010332|60_4|Victoria Cooper,-
+PRT-22010333,61_5,Anthony Richardson,Tenant,PRT-22010333|61_5|Anthony Richardson,-
+PRT-22010334,62_6,Amelia Cox,Juara Talenthic,PRT-22010334|62_6|Amelia Cox,-
+PRT-22010335,63_1,David Howard,Mentor,PRT-22010335|63_1|David Howard,-
+PRT-22010336,64_1,Sophia Ward,VIP,PRT-22010336|64_1|Sophia Ward,-
+PRT-22010337,65_1,James Foster,Panitia,PRT-22010337|65_1|James Foster,-
+PRT-22010338,66_2,Mia Brooks,Reguler,PRT-22010338|66_2|Mia Brooks,-
+PRT-22010339,67_3,Alexander Powell,Siswa Undangan,PRT-22010339|67_3|Alexander Powell,-
+PRT-22010340,68_4,Charlotte Long,Talent,PRT-22010340|68_4|Charlotte Long,-
+PRT-22010341,69_5,Michael Patterson,Tenant,PRT-22010341|69_5|Michael Patterson,-
+PRT-22010342,70_6,Evelyn Hughes,Juara Talenthic,PRT-22010342|70_6|Evelyn Hughes,-
+PRT-22010343,71_1,Elijah Flores,Mentor,PRT-22010343|71_1|Elijah Flores,-
+PRT-22010344,72_1,Scarlett Sanders,VIP,PRT-22010344|72_1|Scarlett Sanders,-
+PRT-22010345,73_1,Henry Ross,Panitia,PRT-22010345|73_1|Henry Ross,-
+PRT-22010346,74_2,Zoey Price,Reguler,PRT-22010346|74_2|Zoey Price,-
+PRT-22010347,75_3,Jackson Bennett,Siswa Undangan,PRT-22010347|75_3|Jackson Bennett,-
+PRT-22010348,76_4,Aria Barnes,Talent,PRT-22010348|76_4|Aria Barnes,-
+PRT-22010349,77_5,Lucas Jenkins,Tenant,PRT-22010349|77_5|Lucas Jenkins,-
+PRT-22010350,78_6,Harper Perry,Juara Talenthic,PRT-22010350|78_6|Harper Perry,-
+PRT-22010351,79_1,Jack Edwards,Mentor,PRT-22010351|79_1|Jack Edwards,-
+PRT-22010352,80_1,Emily Turner,VIP,PRT-22010352|80_1|Emily Turner,-
+PRT-22010353,81_1,Oliver Parker,Panitia,PRT-22010353|81_1|Oliver Parker,-
+PRT-22010354,82_2,Ava Collins,Reguler,PRT-22010354|82_2|Ava Collins,-
+PRT-22010355,83_3,Lucas Stewart,Siswa Undangan,PRT-22010355|83_3|Lucas Stewart,-
+PRT-22010356,84_4,Isabella Morris,Talent,PRT-22010356|84_4|Isabella Morris,-
+PRT-22010357,85_5,James Rogers,Tenant,PRT-22010357|85_5|James Rogers,-
+PRT-22010358,86_6,Charlotte Reed,Juara Talenthic,PRT-22010358|86_6|Charlotte Reed,-
+PRT-22010359,87_1,Henry Cook,Mentor,PRT-22010359|87_1|Henry Cook,-
+PRT-22010360,88_1,Amelia Morgan,VIP,PRT-22010360|88_1|Amelia Morgan,-
+PRT-22010361,89_1,William Bell,Panitia,PRT-22010361|89_1|William Bell,-
+PRT-22010362,90_2,Mia Murphy,Reguler,PRT-22010362|90_2|Mia Murphy,-
+PRT-22010363,91_3,Alexander Bailey,Siswa Undangan,PRT-22010363|91_3|Alexander Bailey,-
+PRT-22010364,92_4,Harper Rivera,Talent,PRT-22010364|92_4|Harper Rivera,-
+PRT-22010365,93_5,Michael Cooper,Tenant,PRT-22010365|93_5|Michael Cooper,-
+PRT-22010366,94_6,Evelyn Richardson,Juara Talenthic,PRT-22010366|94_6|Evelyn Richardson,-
+PRT-22010367,95_1,Elijah Cox,Mentor,PRT-22010367|95_1|Elijah Cox,-
+PRT-22010368,96_1,Scarlett Howard,VIP,PRT-22010368|96_1|Scarlett Howard,-
+PRT-22010369,97_1,Henry Ward,Panitia,PRT-22010369|97_1|Henry Ward,-
+PRT-22010370,98_2,Zoey Foster,Reguler,PRT-22010370|98_2|Zoey Foster,-
+PRT-22010371,99_3,Jackson Brooks,Siswa Undangan,PRT-22010371|99_3|Jackson Brooks,-
+PRT-22010372,100_4,Aria Powell,Talent,PRT-22010372|100_4|Aria Powell,-
+PRT-22010373,101_5,Lucas Long,Tenant,PRT-22010373|101_5|Lucas Long,-
+PRT-22010374,102_6,Harper Patterson,Juara Talenthic,PRT-22010374|102_6|Harper Patterson,-
+PRT-22010375,103_1,Matthew Hughes,Mentor,PRT-22010375|103_1|Matthew Hughes,-
+PRT-22010376,104_1,Olivia Flores,VIP,PRT-22010376|104_1|Olivia Flores,-
+PRT-22010377,105_1,Joshua Sanders,Panitia,PRT-22010377|105_1|Joshua Sanders,-
+PRT-22010378,106_2,Emma Price,Reguler,PRT-22010378|106_2|Emma Price,-
+PRT-22010379,107_3,Andrew Bennett,Siswa Undangan,PRT-22010379|107_3|Andrew Bennett,-
+PRT-22010380,108_4,Isabella Barnes,Talent,PRT-22010380|108_4|Isabella Barnes,-
+PRT-22010381,109_5,Joseph Jenkins,Tenant,PRT-22010381|109_5|Joseph Jenkins,-
+PRT-22010382,110_6,Grace Perry,Juara Talenthic,PRT-22010382|110_6|Grace Perry,-
+PRT-22010383,111_1,Thomas Evans,Mentor,PRT-22010383|111_1|Thomas Evans,-
+PRT-22010384,112_1,Chloe Turner,VIP,PRT-22010384|112_1|Chloe Turner,-
+PRT-22010385,113_1,Daniel Parker,Panitia,PRT-22010385|113_1|Daniel Parker,-
+PRT-22010386,114_2,Abigail Collins,Reguler,PRT-22010386|114_2|Abigail Collins,-
+PRT-22010387,115_3,Christopher Stewart,Siswa Undangan,PRT-22010387|115_3|Christopher Stewart,-
+PRT-22010388,116_4,Victoria Morris,Talent,PRT-22010388|116_4|Victoria Morris,-
+PRT-22010389,117_5,Anthony Rogers,Tenant,PRT-22010389|117_5|Anthony Rogers,-
+PRT-22010390,118_6,Amelia Reed,Juara Talenthic,PRT-22010390|118_6|Amelia Reed,-
+PRT-22010391,119_1,David Cook,Mentor,PRT-22010391|119_1|David Cook,-
+PRT-22010392,120_1,Sophia Morgan,VIP,PRT-22010392|120_1|Sophia Morgan,-
+PRT-22010393,121_1,James Bell,Panitia,PRT-22010393|121_1|James Bell,-
+PRT-22010394,122_2,Mia Murphy,Reguler,PRT-22010394|122_2|Mia Murphy,-
+PRT-22010395,123_3,Alexander Bailey,Siswa Undangan,PRT-22010395|123_3|Alexander Bailey,-
+PRT-22010396,124_4,Harper Rivera,Talent,PRT-22010396|124_4|Harper Rivera,-
+PRT-22010397,125_5,Michael Cooper,Tenant,PRT-22010397|125_5|Michael Cooper,-
+PRT-22010398,126_6,Evelyn Richardson,Juara Talenthic,PRT-22010398|126_6|Evelyn Richardson,-
+PRT-22010399,127_1,Elijah Cox,Mentor,PRT-22010399|127_1|Elijah Cox,-
+PRT-22010400,128_1,Scarlett Howard,VIP,PRT-22010400|128_1|Scarlett Howard,-
+PRT-22010401,129_1,Henry Ward,Panitia,PRT-22010401|129_1|Henry Ward,-
+PRT-22010402,130_2,Zoey Foster,Reguler,PRT-22010402|130_2|Zoey Foster,-
+PRT-22010403,131_3,Jackson Brooks,Siswa Undangan,PRT-22010403|131_3|Jackson Brooks,-
+PRT-22010404,132_4,Aria Powell,Talent,PRT-22010404|132_4|Aria Powell,-
+PRT-22010405,133_5,Lucas Long,Tenant,PRT-22010405|133_5|Lucas Long,-
+PRT-22010406,134_6,Harper Patterson,Juara Talenthic,PRT-22010406|134_6|Harper Patterson,-
+PRT-22010407,135_1,Matthew Hughes,Mentor,PRT-22010407|135_1|Matthew Hughes,-
+PRT-22010408,136_1,Olivia Flores,VIP,PRT-22010408|136_1|Olivia Flores,-
+PRT-22010409,137_1,Joshua Sanders,Panitia,PRT-22010409|137_1|Joshua Sanders,-
+PRT-22010410,138_2,Emma Price,Reguler,PRT-22010410|138_2|Emma Price,-
+PRT-22010411,139_3,Andrew Bennett,Siswa Undangan,PRT-22010411|139_3|Andrew Bennett,-
+PRT-22010412,140_4,Isabella Barnes,Talent,PRT-22010412|140_4|Isabella Barnes,-
+PRT-22010413,141_5,Joseph Jenkins,Tenant,PRT-22010413|141_5|Joseph Jenkins,-

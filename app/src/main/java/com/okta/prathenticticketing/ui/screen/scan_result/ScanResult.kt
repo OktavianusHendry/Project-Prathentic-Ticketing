@@ -111,15 +111,17 @@ fun ScanResultScreen(
                     // The 'Nomor Transaksi' is valid and it's the first scan.
                     Card(
                         modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 32.dp, vertical = 8.dp),
+                            .fillMaxWidth()
+                            .padding(horizontal = 32.dp, vertical = 8.dp),
                         colors = CardDefaults.cardColors(
                             containerColor = PrathenticRed
                         )
                     ) {
                         Text(
                             text = "Already Scanned",
-                            modifier = Modifier.padding(16.dp).fillMaxWidth(),
+                            modifier = Modifier
+                                .padding(16.dp)
+                                .fillMaxWidth(),
                             textAlign = TextAlign.Center,
                             fontWeight = FontWeight.Bold
                         )
@@ -133,9 +135,9 @@ fun ScanResultScreen(
                         containerColor = Color.Transparent
                     )
                 ) {
-                    Box(contentAlignment = Alignment.BottomCenter) {
+                    Box(contentAlignment = if (transaction.tipeTiket in listOf("VIP", "Panitia", "Talent", "Juara Talenthic", "Siswa Undangan", "Tenant"))Alignment.BottomCenter else Alignment.TopCenter) {
                         Image(
-                            painter = painterResource(id = R.drawable.background_tiket_free),
+                            painter = painterResource(id =if (transaction.tipeTiket in listOf("VIP", "Panitia", "Talent", "Juara Talenthic", "Siswa Undangan", "Tenant")) R.drawable.background_tiket_free else R.drawable.background_tiket_paid),
                             contentDescription = null,
                             modifier = Modifier
                                 .fillMaxSize()
@@ -145,7 +147,7 @@ fun ScanResultScreen(
                         Column(
                             modifier = Modifier
                                 .padding(horizontal = 52.dp)
-                                .padding(bottom = 16.dp)
+                                .padding(bottom = 16.dp, top = if (transaction.tipeTiket in listOf("VIP", "Panitia", "Talent", "Juara Talenthic", "Siswa Undangan", "Tenant")) 0.dp else 160.dp)
                                 .fillMaxWidth(),
                         ) {
                             Row{
